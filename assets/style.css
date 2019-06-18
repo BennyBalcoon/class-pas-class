@@ -4,11 +4,12 @@
 }
 
 #content {
-/* border: 1px red solid; */
+background-color: #FCE2BB;
 height: 600px;
 width: 600px;
 display: flex;
-border: 1px solid black;
+margin: 0 auto;
+border-radius: 10px;
 }
 
 .col {
@@ -27,15 +28,14 @@ border: 1px solid black;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid #44BAFB;
     padding: 5px;
-    background-color: red;
 }
 
 .square {
     width: 60px;
     height: 60px;
-    border: 1px solid black;
+    border: 2px solid #44BAFB;
     padding: 5px;
 }
 
@@ -43,9 +43,33 @@ border: 1px solid black;
     padding: 5px;
     width: 60px;
     height: 60px;
-    border: 1px solid black;
+    border: 2px solid #44BAFB;
     -ms-transform: rotate(45deg); /* Internet Explorer */
     -moz-transform: rotate(45deg); /* Firefox */
     -webkit-transform: rotate(45deg); /* Safari et Chrome */
     -o-transform: rotate(45deg); /* Opera */
+}
+
+/* AJOUT FONCTIONNALITES BOUTON REMPLIR */
+
+.fill {
+    background-color: #44BAFB;
+}
+
+#bouton {
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+}
+
+button {
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid #FCE2BB;
+}
+
+button:hover {
+    background-color: #44BAFB;
 }
