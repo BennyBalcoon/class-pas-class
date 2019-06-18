@@ -1,0 +1,1 @@
+# class-pas-class
