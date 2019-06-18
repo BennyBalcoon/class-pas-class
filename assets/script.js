@@ -31,7 +31,7 @@ $(".square.ligne2").click(function () {
 });
 
 $(".square.ligne3").click(function () {
-    if ($(this).hasClass("fill") && ($(".ligne2").hasClass("fill"))) {
+    if ($(this).hasClass("fill") && ($(".ligne3").hasClass("fill"))) {
         $(".ligne3").removeClass("fill");
     } else {
         $(".ligne3").addClass("fill");
@@ -39,7 +39,7 @@ $(".square.ligne3").click(function () {
 });
 
 $(".square.ligne4").click(function () {
-    if ($(this).hasClass("fill") && ($(".ligne2").hasClass("fill"))) {
+    if ($(this).hasClass("fill") && ($(".ligne4").hasClass("fill"))) {
         $(".ligne4").removeClass("fill");
     } else {
         $(".ligne4").addClass("fill");
@@ -47,7 +47,7 @@ $(".square.ligne4").click(function () {
 });
 
 $(".square.ligne5").click(function () {
-    if ($(this).hasClass("fill") && ($(".ligne2").hasClass("fill"))) {
+    if ($(this).hasClass("fill") && ($(".ligne5").hasClass("fill"))) {
         $(".ligne5").removeClass("fill");
     } else {
         $(".ligne5").addClass("fill");
